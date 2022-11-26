@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    background-color: pink;
+    align-items: center;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+nav div.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+nav h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav ol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 475px;
+}
+
+nav ol li{
+    list-style-type: none;
+}
+
+nav ol li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+section.banner{
+    display: flex;
+    justify-content: center;
+    background-color: papayawhip;
+    height: 550px;
+}
+
+section.banner section.banner-wrapper{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+section.banner section.banner-wrapper div.left h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+section.banner section.banner-wrapper div.left p {
+    font-size: 20px;
+    color: black;
+}
+
+section.banner section.banner-wrapper div.left {
+    padding: 5px 10px;
+}
+
+section.banner section.banner-wrapper div.left button {
+    background-color: black;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    border-radius: 100px;
+}
+section.about div.about-wrapper div.content div.button-wrapper but
+
+section.banner section.banner-wrapper div.right {
+    height: 106%;
+    align-items: center;
+    align-items: flex-start;
+}
+
+section.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+
+section.about div.about-wrapper {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.about div.about-wrapper div.title {
+    font-size: 64px;
+    color: black;
+    font-weight: 600;
+}
+
+section.about div.about-wrapper div.content {
+    width: 600px;
+}
+
+section.about div.about-wrapper div.content p {
+    font-size: 20px;
+}
+
+section.about div.about-wrapper div.button-wrapper div.content div.button-wrapper button:first-child{
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+section.about div.about-wrapper div.button-wrapper div.content div.button-wrapper button:last-child{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+section.services{
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.services div.services-wrapper div.text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section.services div.services-wrapper {
+    width: 880px;
+}
+section.services div.services-wrapper div.text h2{
+    font-size: 64px;
+    font-weight: 500;
+    color: black;
+}
+section.services div.services-wrapper div.text p {
+    width: 600px;
+}
+section.services div.services-wrapper div.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+section.services div.services-wrapper div.card-container div.card {
+    height: 300px;
+    width: 270px;
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section.services div.services-wrapper div.card-container div.card i{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+section.services div.services-wrapper div.card-container div.card h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+section.services div.services-wrapper div.card-container div.card p{
+    font-size: 20px;
+}
